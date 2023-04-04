@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+
+}
+/* navigation css start  */
+header{
+    width: 100%;
+    position: absolute;
+    background-color:#212529;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+
+}
+.link
+{
+    display: flex;
+}
+.link li
+{
+    margin: 15px;
+}
+.link li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.link li a:hover
+{
+    background-color: #2d7afd;
+    color: white;
+    transition: 0.5s;
+}
+.Accessories 
+{
+    text-decoration: #2d7afd underline;
+    text-decoration-thickness: 7px;
+}
+.Accessories:hover
+{
+    text-decoration: #212529 underline;
+    text-decoration-thickness: 5px;
+}
+/* navigation css end  */
+.banner{
+    width: 100%;
+    height: 600px;
+    background: url(Pictures/banner\ 7.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: center;
+    /* opacity: 0.9; */
+    
+    
+}
+.banner .bannercontent
+{   
+    width: 100%;
+    text-align: center;
+    padding-top: 200px;
+    background: rgba(0, 0, 0, 0.6);
+    padding-left: 200px;
+    padding-right: 200px;
+    
+    
+}
+.banner .bannercontent h1
+{
+    color: white;
+    font-size: 60px;
+    text-shadow: 3px 3px black;
+    font-family: 'Great Vibes', cursive;
+}
+.banner .bannercontent p
+{
+    color: white;
+    font-size: 15px;
+    text-decoration: solid;
+    text-shadow: 3px 2px black;
+    text-align: justify;
+}
+/* banner css end  */
+
+/* best deals section start  */
+
+.one {
+    width: 50%;
+    height: 250px;
+}
+.section{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 400px 400px;
+    justify-content: space-around;
+    row-gap: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.card
+{
+    height: 400px;
+    width: 400px;
+}
+.section .card button
+{
+     border-radius: 25px;
+     font-size: 15px;
+     padding: 15px;
+     margin: 20px 20px;
+     border-color: solid #212529;  
+     color: #2d7afd; 
+}
+.section .card button:hover{
+    cursor: pointer;
+}
+#two{
+    font-size: 4rem;
+    text-align:center;
+    font-family: 'Great Vibes', cursive;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    /* background-color: rgb(24, 24, 99); */
+    animation: hamza 1s ease infinite;  
+}
+.twocontent{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/* footer css star */
+.footer{
+    padding-top: 4600px;
+}
+footer{
+    height: 400px;
+    width: 100%;
+    background-color: #212529;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footercontent{
+    width: 30%;
+    color: rgb(137, 137, 137);
+    text-align: justify;
+    padding: 50px;
+    padding-right: 80px;
+}
+.footercontent h3{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.footercontent h3 span{
+    text-align: center;
+    color: #2d7afd;
+    font-size: 30px;
+}
+.contact{
+    width: 30%;
+    color: rgb(137, 137, 137);
+    text-align: justify;
+    padding: 50px;
+    padding-right: 80px;
+}
+.contact h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.contact h2 span {
+    text-align: center;
+    color: #2d7afd;
+    font-size: 30px;
+}
+.img{
+    width: 40%;
+    text-align: justify;
+    padding: 50px;
+    padding-right: 80px;
+}
+.img img {
+    height: 250px;
+}
+.copyright
+{
+    width: 100%;
+    height: 50px;
+    background-color:#2d7afd;
+    text-align: right;
+    color: white;
+    padding-bottom: 50px;
+}
+.copyright p{
+
+    font-size: 17px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+.fa-phone
+{
+    color: #2d7afd;
+}
+.fa-instagram
+{
+    color: #2d7afd;
+}
+.fa-envelope-circle-check
+{
+    color: #2d7afd;
+}

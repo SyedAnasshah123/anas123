@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+
+}
+/* navigation css start  */
+header{
+    width: 100%;
+    position: absolute;
+    background-color:#212529;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+
+}
+.link
+{
+    display: flex;
+}
+.link li
+{
+    margin: 15px;
+}
+.link li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.link li a:hover
+{
+    background-color: #2d7afd;
+    font-weight: 60px;
+    color: white;
+    transition: 0.5s;
+}
+.fa-house
+{
+    color: white;
+}
+.home 
+{
+    text-decoration: #2d7afd underline;
+    text-decoration-thickness: 7px;
+}
+.home:hover
+{
+    text-decoration: #212529 underline;
+    text-decoration-thickness: 5px;
+}
+/* navigation css end  */
+
+/* best deals section start  */
+
+.one {
+    width: 50%;
+    height: 250px;
+}
+.section{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 400px 400px;
+    justify-content: space-around;
+    row-gap: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.card
+{
+    height: 400px;
+    width: 400px;
+}
+.section .card button
+{
+     border-radius: 25px;
+     font-size: 15px;
+     padding: 15px;
+     margin: 20px 20px;
+     border-color: solid #212529;  
+     color: #2d7afd; 
+}
+.section .card button:hover{
+    cursor: pointer;
+}
+#two{
+    font-size: 4rem;
+    text-align:center;
+    font-family: 'Great Vibes', cursive;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    /* background-color: rgb(24, 24, 99); */
+    animation: hamza 1s ease infinite;  
+}
+.twocontent{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+@keyframes hamza {
+    
+    0%,100%{
+        text-shadow: 0 0 10px rgb(14, 141, 141),
+        0 0 20px rgb(14, 141, 141),
+        0 0 20px rgb(14, 141, 141),
+        0 0 20px rgb(14, 141, 141),
+        0 0 2px rgb(14, 141, 141);
+        color: #f5efcb;
+    }
+    50%{
+        text-shadow: 0 0 2px rgb(0, 217, 255),
+        0 0 5px rgb(0, 217, 255),
+        0 0 5px rgb(0, 217, 255),
+        0 0 5px rgb(0, 217, 255),
+        0 0 2px rgb(0, 217, 255),
+        4px 4px 2px #dde477;
+        color: lightcyan;
+    }
+}
+/* banner css start */
+.banner
+{
+    width: 100%;
+    height: 700px;
+    padding: 5%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Pictures/banner\ 5.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+
+}
+.search-bar{
+    width: 900px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.search-bar input
+{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #cac7ff;
+}
+::placeholder
+{
+    color: white;
+}
+.search-bar button .magnifying-glass
+{
+    width: 25px;
+}
+.search-bar button
+{
+    border: 0;
+    border-radius: 60px;
+    width: 40px;
+    height: 40px;
+    background: #2d7afd;
+    cursor: pointer;
+}
+.banner .bannercontent h1
+{
+    color: white;
+    font-size: 60px;
+    text-shadow: 3px 3px black;
+    text-align: center;
+}
+
+/* banner css end  */
+
+/* footer css start */
+.footer
+{
+    padding-top: 900px;
+    
+}
+footer{
+    height: 400px;
+    width: 100%;
+    background-color: #212529;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footercontent{
+    width: 30%;
+    color: rgb(137, 137, 137);
+    text-align: justify;
+    padding: 50px;
+    padding-right: 80px;
+}
+.footercontent h3{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.footercontent h3 span{
+    text-align: center;
+    color: #2d7afd;
+    font-size: 30px;
+}
+.contact{
+    width: 30%;
+    color: rgb(137, 137, 137);
+    text-align: justify;
+    padding: 50px;
+    padding-right: 80px;
+}
+.contact h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.contact h2 span {
+    text-align: center;
+    color: #2d7afd;
+    font-size: 30px;
+}
+.img{
+    width: 40%;
+    text-align: justify;
+    padding: 50px;
+    padding-right: 80px;
+}
+.img img {
+    height: 250px;
+}
+.copyright
+{
+    width: 100%;
+    height: 50px;
+    background-color:#2d7afd;
+    text-align: right;
+    color: white;
+    padding-bottom: 50px;
+}
+.copyright p{
+
+    font-size: 17px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+.fa-phone
+{
+    color: #2d7afd;
+}
+.fa-instagram
+{
+    color: #2d7afd;
+}
+.fa-envelope-circle-check
+{
+    color: #2d7afd;
+}
+
+
+/* footer css end  */

@@ -1,0 +1,36 @@
+      <label> <b>Enter Your Name:</b></label><br>
+
+       <input type="text" required="text" placeholder="Username"><br><br>
+       
+       <label> <b> Enter Your Email: </b></label><br>
+
+       <input type="Email" required="Email" placeholder="Email Address"><br><br>
+
+       <label> <b>Enter Your Password: </b></label><br>
+
+       <input type="Password" required="password" placeholder="password"><br><br>
+
+       <label for="Stud-age"><b>Enter Your Age:</b></label><br>
+
+       <input type="Number" id="Stud-age" name="Studentage" min="10" max="100" step="1" required="Age" placeholder="age"/><br><br>
+
+       <label><b>Select Your Country:</b></label><br>
+
+       <input type="text" name="List" list="List" placeholder="Country"/>
+
+       <datalist id="List">
+        <option value="Pakistan"></option>
+        <option value="china"></option>
+        <option value="Brazil"></option>
+        <option value="India"></option> 
+        <option value="Bangladesh"></option>                
+       </datalist><br><br>
+
+       <label for="atdate"> <b>Date Of Birth:</b></label><br>
+
+        <input type="date" id="stdate" name="startdate" min="1900-01-01" required="date" placeholder="Date Of Birth"/><br><br>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+       <input type="Submit">
